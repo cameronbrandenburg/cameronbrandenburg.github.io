@@ -8,44 +8,141 @@ body {
 #content {
     background: rgba(199, 199, 199, 0.8);
     padding: 10px;
-    width: 85%;
+    width: 95%;
     margin: auto;
     border-radius: 10px;
 }
 
 #main-title {
-    font-size: 35px;
-    color: #C13B58
+    font-size: 42px;
+    color: rgb(145, 45, 45);
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 #name-text {
     font-size: 25px;
+    padding: 0;
+    padding-left: 40px;
+    margin: 0;
 }
 
-#course-description {
-    font-size: 18px;
-    color: #343434;
+#assignment-heading {
+    font-size: 38px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 0px;
 }
 
-#assignments {
-    font-size: 22px;
+.assignment-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background: rgb(145, 45, 45);
+    border-radius: 10px;
 }
 
-#assignment-list {
-    font-size: 18px;
-}
-
-#assinment-list li {
-    margin: 0 0 3px 0;
-}
-
-#assignment-list a {
+.assignment-section a {
+    text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    color: #343434;
+    font-size: 28px;
+    color: black;
     border-bottom: 2px solid transparent;
 }
 
-#assignment-list a:hover {
-    border-bottom: 2px solid #C13B58;
+.assignment-section a:hover {
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.assignment-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    object-fit: cover;
+    width: 90%;
+}
+
+.assignment-section p {
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+#in-class-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: rgb(104, 104, 104);
+}
+
+#in-class-heading {
+    font-size: 38px;
+    color: black;
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+#in-class-list {
+    font-size: 18px;
+}
+
+#in-class-list li {
+    margin: 0 0 3px 0;
+}
+
+#in-class-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+#in-class-list a:hover {
+    border-bottom: 2px solid rgb(145, 45, 45);
+}
+
+@media(min-width: 900px) {
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #name-text {
+        order: -1;
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    #main-title {
+        padding: 10px 0 5px 0;
+    }
+
+    #content br {
+        display: none;
+    }
+    
+    #assignments {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+
+    .assignment-section {
+        display: flex;
+        flex: 0 0 26%;
+        background: rgb(145, 45, 45);
+        border-radius: 10px;
+        align-items: center;
+    }
 }
