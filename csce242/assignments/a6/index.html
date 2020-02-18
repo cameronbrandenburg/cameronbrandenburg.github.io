@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Assignment 6</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>If Statement Assignment</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items">
+                    <li><a href="#">Exercise 1</a></li>
+                    <li><a href="#">Exercise 2</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="content">
+            <section class="example">
+                <h1>Who's the Oldest</h1>
+
+                <p>
+                    <label for="txt-name1">Name 1: </label>
+                    <input id="txt-name1">
+                    <span id="error-name1" class="error hidden">* blank</span>
+                </p>
+                <p>
+                    <label for="txt-age1">Age 1: </label>
+                    <input id="txt-age1">
+                    <span id="error-age1" class="error hidden">* blank</span>
+                </p>
+                <p>
+                    <label for="txt-name2">Name 2: </label>
+                    <input id="txt-name2">
+                    <span id="error-name2" class="error hidden">* blank</span>
+                </p>
+                <p>
+                    <label for="txt-age2">Age 2: </label>
+                    <input id="txt-age2">
+                    <span id="error-age2" class="error hidden">* blank</span>
+                </p>
+                <p>
+                    <label for="txt-name3">Name 3: </label>
+                    <input id="txt-name3">
+                    <span id="error-name3" class="error hidden">* blank</span>
+                </p>
+                <p>
+                    <label for="txt-age3">Age 3: </label>
+                    <input id="txt-age3">
+                    <span id="error-age3" class="error hidden">* blank</span>
+                </p>
+                <button id="btn-display">Compare Ages</button>
+
+                <p id="ex1-result"></p>
+            </section>
+
+            <section class="example2">
+                <h1>Fund Raising</h1>
+                <h2 id="goal">Goal: 10,000.00</h2>
+                <span id=funds-line>
+                    <p>
+                        <label for="txt-funds">Funds Raised: </label>
+                        <input id="txt-funds">
+                        <span id="error-funds" class="error hidden">* blank</span>
+                        <button id="btn-display-funds">Display</button>
+                    </p>
+                    
+                </span>
+                <div id="grad" class="empty"></div>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
