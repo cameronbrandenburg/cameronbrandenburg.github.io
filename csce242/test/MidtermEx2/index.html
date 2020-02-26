@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>JavaScript Examples</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>JavaScript Examples</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Bio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <section class="example">
+                <h1>First Example</h1>
+                <p>
+                    <label for="txt-color">Enter Color: </label>
+                    <input id="txt-color">
+                    <span id="error-fav-color" class="error hidden">* blank</span>
+                </p>
+                <button id="btn-display">Display</button>
+            </section>
+
+            <section class="example">
+                <h1>Second Example</h1>
+                <p>
+                    <label for="txt-animal">Fav Animal: </label>
+                    <input id="txt-animal">
+                    <span id="error-animal" class="error hidden">* blank</span>
+                </p>
+
+                <button id="btn-animal">Display</button>
+            </section>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+:root {
+    --rMargin: 25px;
+    --gradient: linear-gradient(0deg, rgba(249,13,3,1) 0%, rgba(249,13,3,1) 0%, rgb(255, 255, 255) 0%, rgba(255,255,255,1) 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333333;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    background: #3399FF;
+    margin: 20px;
+    width: 100%;
+    border-radius:5px;
+}
+
+.column h1 {
+    text-align: center;
+}
+
+.column h2 {
+    margin-left: 25px;  
+}
+
+img {
+    margin: 10px 25px 50px 25px;
+    margin-left: var(--rMargin);
+    background: transparent;
+}
+
+#funds-line label {
+    width: 40%;
+    text-align: right;
+    padding: 5px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+#funds-line input {
+    width: 30%;
+    padding: 5px;
+}
+
+#funds-line input:focus {
+    background:rgb(255, 241, 238);
+    color:rgb(212, 77, 77);
+}
+
+#btn-display-funds {
+    padding: 5px;
+}
+
+.error {
+    color:red;
+}
+
+.hidden {
+    display:none;
+}
+
+#grad {
+    width:75px;
+    height:350px;
+    margin: 20px auto;
+    background: var(--gradient);
+}

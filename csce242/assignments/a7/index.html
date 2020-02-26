@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>JavaScript Examples</title>
+    </head>
+    <body>
+        <div id="main-content">
+            <div class="column">
+                <h1>Running Man</h1>
+                <img src="images/walking-man.png" id="running-man" width=100px height=auto>
+            </div>
+
+            <div class="column">
+                <h1>Fund Raising</h1>
+                <h2 id="goal">Goal: 10,000.00</h2>
+                <span id=funds-line>
+                    <p>
+                        <label for="txt-funds">Funds Raised: </label>
+                        <input id="txt-funds">
+                        <span id="error-funds" class="error hidden">* blank</span>
+                        <button id="btn-display-funds">Display</button>
+                    </p>
+                    
+                </span>
+                <div id="grad" class="empty"></div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
