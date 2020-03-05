@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333333;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    background: #3399FF;
+    margin: 20px;
+    width: 100%;
+    border-radius:5px;
+}
+
+.column h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#quote {
+    margin: 20px;
+}
+
+#btn-rainbow {
+    background-color: #333333;
+    border: #333333;
+    color: #3399FF;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 20px 0 20px;
+}
+
+#rainbow {
+    margin: 10px 10px 30px 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#rainbow p {
+    height: 20px;
+    margin: 0 10px;
+}
+
+#gold {
+    width: 100px;
+    height: auto;
+    float: right;
+    position: relative;
+    bottom: 120px;;
+    right: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
