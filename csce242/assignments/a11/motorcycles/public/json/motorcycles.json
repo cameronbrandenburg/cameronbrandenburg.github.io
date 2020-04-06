@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Ducati Panigale V4",
+        "engine":"90° V4",
+        "cc":"1103",
+        "hp":"226",
+        "dimensions":["82.68","31.69","44.57"],
+        "img":"images/panigale.jpg"
+    },
+    {
+        "name":"BMW S1000RR",
+        "engine":"Inline Four",
+        "cc":"999",
+        "hp":"205",
+        "dimensions":["81.61","33.39","45.31"],
+        "img":"images/s1000rr.jpg"
+    },
+    {
+        "name":"Honda CBR1000RR-R",
+        "engine":"Inline Four",
+        "cc":"999",
+        "hp":"212",
+        "dimensions":["82.67","29.33","44.88"],
+        "img":"images/cbr1000rrr.jpg"
+    },
+    {
+        "name":"Triumph Daytona 765R",
+        "engine":"Inline Triple",
+        "cc":"765",
+        "hp":"128",
+        "dimensions":["81.05","28.26","43.50"],
+        "img":"images/daytona.jpg"
+    },
+    {
+        "name":"KTM RC 390",
+        "engine":"Single Cylinder",
+        "cc":"373.3",
+        "hp":"42",
+        "dimensions":["78.8","34.4","49.9"],
+        "img":"images/rc390.jpg"
+    },
+    {
+        "name":"Yamaha XSR900",
+        "engine":"Inline Triple",
+        "cc":"847",
+        "hp":"115",
+        "dimensions":["81.7","32.1","44.9"],
+        "img":"images/xsr900.jpg"
+    }
+  ]
