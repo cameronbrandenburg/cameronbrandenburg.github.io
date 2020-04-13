@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="main-content">
+            <h1>Nutrition Facts</h1>
+            <div id="food-list"></div>
+            <div id="food-forms">
+                <div id="food-details" class="food-form">
+                    <h2>Food Nutrition Information</h2>
+                    <span id="food-id" class="hidden"></span>
+                    <p>
+                        <label for="txt-name">Name: </label>
+                        <input id="txt-name">
+                    </p>
+                    <p>
+                        <label for="txt-calories">Calories: </label>
+                        <input id="txt-calories">
+                    </p>
+                    <p>
+                        <label for="txt-protein">Protein: </label>
+                        <input id="txt-protein">
+                    </p>
+                    <p>
+                        <label for="txt-carbs">Carbs: </label>
+                        <input id="txt-carbs">
+                    </p>
+                    <p>
+                        <label for="txt-fat">Fat: </label>
+                        <input id="txt-fat">
+                    </p>
+                    <button id="btn-edit-food">Edit Food</button>
+                    <button id="btn-delete-food">Delete Food</button>
+                    <p id="edit-notif" class="invisible">Notification</p>
+                </div>
+
+                <div id="add-food" class="food-form">
+                    <h2>Add New Food</h2>
+                    <p>
+                        <label for="txt-add-name">Name: </label>
+                        <input id="txt-add-name">
+                    </p>
+                    <p>
+                        <label for="txt-add-calories">Calories: </label>
+                        <input id="txt-add-calories">
+                    </p>
+                    <p>
+                        <label for="txt-add-protein">Protein: </label>
+                        <input id="txt-add-protein">
+                    </p>
+                    <p>
+                        <label for="txt-add-carbs">Carbs: </label>
+                        <input id="txt-add-carbs">
+                    </p>
+                    <p>
+                        <label for="txt-add-fat">Fat: </label>
+                        <input id="txt-add-fat">
+                    </p>
+                    <button id="btn-add-food">Add Food</button>
+                    <p id="add-notif" class="invisible">Notification</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
