@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="main-content">
+            <div id="restaurants">
+                <h1>Restaurant Database</h1>
+                <div id="restaurants-list"></div>
+                <button id="btn-add-new-restaurant">Add New Restaurant</button>
+            </div>
+        
+            <div id="restaurant-info" class="hidden">
+                <span id="restaurant-id" class="hidden"></span>
+                <div id="display-info">
+                    <h3 id="p-name" class="display-field"></h3>
+                    <p id="p-address" class="display-field"></p>
+                    <p id="p-price-range" class="display-field"></p>
+                    <p id="p-specialties" class="display-field"></p>
+                    <p id="p-rating" class="display-field"></p>
+                    <p id="p-hours" class="display-field"></p>
+                </div>
+                <div id="edit-info" class="hidden">
+                    <p>
+                        <label for="txt-name">Name: </label>
+                        <input id="txt-name">
+                    </p>
+                    <p>
+                        <label for="txt-address">Address: </label>
+                        <input id="txt-address">
+                    </p>
+                    <p>
+                        <label for="txt-price-range">Price Range: </label>
+                        <input id="txt-price-range">
+                    </p>
+                    <p>
+                        <label for="txt-specialties">Specialties: </label>
+                        <input id="txt-specialties">
+                    </p>
+                    <p>
+                        <label for="txt-rating">Rating: </label>
+                        <input id="txt-rating">
+                    </p>
+                    <p>
+                        <label for="txt-hours">Hours: </label>
+                        <input id="txt-hours">
+                    </p>
+                </div>
+                
+                <section class="button-section">
+                    <button id="btn-edit-restaurant">Edit Restaurant</button>
+                    <button id="btn-delete-restaurant">Delete Restaurant</button>
+                    <button id="btn-submit-restaurant" class="hidden">Submit Changes</button>
+                </section>
+            </div>
+
+            <div id="add-restaurant", class="hidden">
+                <h2>Add Restaurant</h2>
+                <p>
+                    <label for="txt-add-name">Name: </label>
+                    <input id="txt-add-name">
+                </p>
+                <p>
+                    <label for="txt-add-address">Address: </label>
+                    <input id="txt-add-address">
+                </p>
+                <p>
+                    <label for="txt-add-price-range">Price Range: </label>
+                    <input id="txt-add-price-range">
+                </p>
+                <p>
+                    <label for="txt-add-specialties">Specialties: </label>
+                    <input id="txt-add-specialties">
+                </p>
+                <p>
+                    <label for="txt-add-rating">Rating: </label>
+                    <input id="txt-add-rating">
+                </p>
+                <p>
+                    <label for="txt-add-hours">Hours: </label>
+                    <input id="txt-add-hours">
+                </p>
+                <button id="btn-add-restaurant">Add Restaurant</button>
+            </div>
+        </div>
+    </body>
+</html>

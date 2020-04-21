@@ -1,0 +1,136 @@
+body {
+    font-family:arial;
+    background: black;
+    background-image: url(images/res-background.jpeg);
+    background-size: 125% auto;
+}
+
+#restaurants {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(65, 0, 0);
+    padding-top: 20px;
+    text-align: center;
+}
+
+#restaurants-list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.restaurant {
+    width:30%;
+    background:rgba(255, 255, 255);
+    opacity: 0.7;
+    transition: 0.5s;
+    padding:5px;
+    margin:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.restaurant:hover {
+    background: rgb(65, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.restaurant h3 {
+    padding: 5px;
+    margin: 0;
+}
+
+.restaurant a {
+    text-decoration:none;
+    color: black;
+    font-size: 14pt;
+}
+
+#restaurant-info, #add-restaurant {
+    background:rgba(255, 255, 255, 0.7);
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: hidden;
+    width: 85%;
+    text-align: center;
+}
+
+#display-info, #edit-info {
+    width: 65%;
+}
+
+#p-name {
+    color: rgb(65, 0, 0);
+    text-align: left;
+    font-size: 16pt;
+    text-decoration: bold;
+    padding-left: 25px;
+}
+
+p {
+    text-align: left;
+    font-size: 12pt;
+    padding-left: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 240px;
+    text-align: right;
+    padding-left: 80px;
+    font-size: 12pt;
+    text-decoration: bold;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+    padding: 3px 0;
+    font-size: 12pt;
+
+}
+
+.button-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 24px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(65, 0, 0, 0.5);
+}
+
+#btn-add-new-restaurant {
+    width: 225px;
+}
+
+.hidden {
+    display:none;
+}
+
+.invisible {
+    visibility: hidden;
+}
